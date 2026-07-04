@@ -1,0 +1,94 @@
+# Jira06 - FINAL: UI Automated Test with Selenium NUnit (C#)
+
+## Project Overview
+
+This project is an **automated UI testing framework** built using:
+
+- NUnit (Test Framework)
+- Selenium WebDriver
+- C# 
+- ExtentReports (Test reporting)
+- JSON Test Data Driven
+
+The purpose is to automate test scenarios for: https://demoqa.com/
+
+---
+
+## Tech Stack
+
+| Component | Technology |
+|----------|------------|
+| Language | C# |
+| Framework | NUnit |
+| UI Automation | Selenium WebDriver |
+| Reporting | ExtentReports |
+| Test Data | JSON |
+| Target App | https://demoqa.com/ |
+
+
+---
+
+## Test Scenarios
+
+---
+
+## Scenario 1.1: Register student with all fields successfully
+
+### Given
+- User is on Student Registration Form page
+
+### When
+- User inputs valid data into all fields
+- User clicks Submit button
+
+### Then
+- Successful message **"Thanks for submitting the form"** is displayed
+- All submitted information is shown correctly
+
+---
+
+## Scenario 1.2: Register student with mandatory fields successfully
+
+### Given
+- User is on Student Registration Form page
+
+### When
+- User inputs valid data into required fields only
+- User clicks Submit button
+
+### Then
+- Successful message **"Thanks for submitting the form"** is displayed
+- All mandatory information is shown correctly
+
+---
+
+## Scenario 2: Search book with multiple results
+
+### Given
+- User is on Book Store page https://demoqa.com/books
+
+### When
+- User searches book name: **"Design"** or **"design"**
+
+### Then
+- All matching books are displayed correctly
+
+---
+
+## Scenario 3: Delete book successfully
+
+### Given
+- A book named **"Git Pocket Guide"** exists
+- User is logged into the application
+- User is on Profile page
+
+### When
+- User searches for the book
+- User clicks Delete icon
+- User confirms deletion (OK)
+- User confirms alert “Book deleted.”
+
+### Then
+- Book is removed from the list
+
+
