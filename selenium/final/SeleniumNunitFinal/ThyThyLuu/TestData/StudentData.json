@@ -1,0 +1,14 @@
+{
+    "firstName": "Thy",
+    "lastName": "Luu",
+    "email": "abcdef@gmail.com",
+    "gender": "Female",
+    "mobile": "0123456789",
+    "dateOfBirth": "4 May 2000",
+    "subjects": "Arts",
+    "hobbies": "Reading",
+    "picture": "image.jpg",
+    "currentAddress": "123 abc, d district, HCM city",
+    "state": "NCR",
+    "city": "Noida"
+}
